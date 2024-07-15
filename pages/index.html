@@ -4,17 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="website.css">
-    <link rel="icon" href="favicon.ico" sizes="48x48">
+    <link rel="stylesheet" href="../styles/website.css">
+    <link rel="icon" href="../assets/favicon.ico" sizes="48x48">
 </head>
 <body>
     <h1>Mein Portfolio</h1>
     <br>
     <div class="button-container">
-        <button id="aboutme">Über mich</button>
+        <button id="aboutme"
+            onmouseover="mouseOverAboutMe()"
+            onmouseleave="mouseOutAboutMe()"
+            onclick="gotoAboutMe()">
+                Über mich
+        </button>
         <button id="projekte">Projekte</button>
         <button id="gallerie">Gallerie</button>
     </div>
-    <script src="website.js"></script>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>
