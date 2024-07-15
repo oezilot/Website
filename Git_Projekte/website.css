@@ -1,0 +1,64 @@
+body {
+    background-color: blue;
+    position: relative;
+}
+
+h1, h2, p {
+    color: white;
+    text-align: center;
+    font-family: 'Courier';
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto; /* Center the container */
+}
+
+.button-container button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Courier';
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table {
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    width: 80%;
+    color:#dddddd;
+    margin: 0 auto; /* Zentriert die Tabelle */
+}
+
+  .table2 {
+    vertical-align: middle;
+  }
+
+  .center-cell{
+    text-align: center;
+    background-color: #dddddd;
+    color: black;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+.rectangle {
+    height:30vh; /* Höhe des Rechtecks */
+    background-color: violet;
+    margin: 20px auto 0; /* Abstand zur Tabelle, zentriert das Rechteck */
+    width: 80%; /* Gleiche Breite wie die Tabelle */
+    position: abslolute;
+}
+
