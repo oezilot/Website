@@ -36,25 +36,43 @@
 //    });
 //});
 
-////////////////// TABELLENGRÖSSEN ANPASSEN ///////////////
-
-
+//////////////// BUTTONS ///////////////////
 function gotoAboutMe() {
     window.location.href = 'about.html';
 }
-
+function gotoProjects() {
+    window.location.href = 'projects.html';
+}
+function gotoGallery() {
+    window.location.href = 'gallery.html';
+}
+function gotoIndex() {
+    window.location.href = 'index.html';
+}
+/////////////////////////////////////////////
 function mouseOverAboutMe() {
     document.getElementById('aboutme').style.backgroundColor = 'violet';
 }
-
+function mouseOverProjects() {
+    document.getElementById('projects').style.backgroundColor = 'violet';
+}
+function mouseOverGallery() {
+    document.getElementById('gallery').style.backgroundColor = 'violet';
+}
+function mouseOverIndex() {
+    document.getElementById('index').style.backgroundColor = 'violet';
+}
+///////////////////////////////////////////
 function mouseOutAboutMe() {
     document.getElementById('aboutme').style.backgroundColor = '';
 }
-
-function gotoProjekte() {
-    window.location.href = 'projekte.html';
+function mouseOutProjects() {
+    document.getElementById('projects').style.backgroundColor = '';
 }
-
-function gotoGallerie() {
-    window.location.href = 'gallerie.html';
+function mouseOutGallery() {
+    document.getElementById('gallery').style.backgroundColor = '';
 }
+function mouseOutIndex() {
+    document.getElementById('index').style.backgroundColor = '';
+}
+/////////////////////////////////////////
