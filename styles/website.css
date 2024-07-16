@@ -1,12 +1,14 @@
 body {
     background-color: blue;
     position: relative;
+    color: white;
 }
 
 h1, h2, p {
     color: white;
     text-align: center;
     font-family: 'Courier';
+    overflow: auto;
 }
 
 .button-container {
@@ -33,32 +35,80 @@ h1, h2, p {
 table {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
-    width: 80%;
-    color:#dddddd;
+    width: 100%;
+    color:white;
     margin: 0 auto; /* Zentriert die Tabelle */
 }
 
-  .table2 {
-    vertical-align: middle;
-  }
-
-  .center-cell{
-    text-align: center;
-    background-color: #dddddd;
-    color: black;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-
-.rectangle {
-    height:30vh; /* Höhe des Rechtecks */
-    background-color: violet;
-    margin: 20px auto 0; /* Abstand zur Tabelle, zentriert das Rechteck */
-    width: 80%; /* Gleiche Breite wie die Tabelle */
-    position: abslolute;
+#table1 {
+  width: 70vw
 }
+
+.table2 {
+  background-color: violet; /* Hintergrundfarbe für die Titel */
+  color: white;
+  padding: 10px;
+  display: block;
+  width: 70vw;
+  max-width: 1200px;
+}
+
+.center-cell{
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+td, th {
+  border: 1px solid white;
+  text-align: center;
+  padding: 8px;
+}
+
+/* SUBPAGE PROJEKTE */
+.blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Zentriert die Blöcke horizontal */
+}
+
+.block-item {
+  background-color: #04AA6D; /* Hintergrundfarbe für die Titel */
+  color: white;
+  padding: 4px 10px; /* 5px oben und unten, 10px links und rechts */
+  border-radius: 0px;
+  display: block;
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px 0 0px 0; /* Unterschiedlicher Abstand: 20px oben, 10px unten */
+}
+
+.block-item2 {
+  background-color: #04AA6D; /* Hintergrundfarbe für die Titel */
+  color: white;
+  padding: 10px;
+  border-radius: 0px;
+  display: block;
+  width: 80%;
+  max-width: 1200px;
+  margin: 1% 0 20px 0; /* Unterschiedlicher Abstand: 20px oben, 10px unten */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*
+table {
+  width:fit-content;
+}
+table td, table th {
+  text-align: center;
+}
+
+.social-media {
+  align-items: center;
+}
+  */
 
